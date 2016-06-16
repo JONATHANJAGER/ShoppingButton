@@ -1,0 +1,32 @@
+.buttons {
+	position: absolute;
+	left: 280px;
+	top: 150px;
+	
+}
+button {
+	background-color: orange;
+	color: white;
+	width: 270px;
+	height: 65px;
+	font-size: 25px;
+	vertical-align: middle;
+	display: block;
+	margin-bottom: 5px;
+
+}
+header { 
+	font-size:40px;
+	padding: 35px;
+ }
+ button:focus{
+
+ 	background: olive;
+ }
+ body {
+ 	text-align: center;
+
+
+ 	
+ }
+	
