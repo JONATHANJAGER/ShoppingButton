@@ -5,6 +5,7 @@
    }
 }
 
+
 body {
   text-align: center;
   margin: 50px;
@@ -22,7 +23,7 @@ body {
   border-radius: 50px;
   display: flex;
   flex-direction: column;
-  transition: all 5s ease;
+  transition: all .5s ease;
 }
 
 header {
@@ -70,9 +71,10 @@ header {
 }
 
 #list {
+  align-item: stretch;
   display: flex; 
   flex-direction: column;
-  align-item: stretch; 
+   
 }
 
 .list-item {
@@ -92,12 +94,12 @@ header {
   cursor: move;
 }
 
- x {
+ .x {
    margin-right: 2em;
    display: inline-block;
-   transform: scale(1.5);
+   transform: scale(1);
    position: relative;
-   bottom: 5px;
+   bottom: 0px;
    cursor: pointer;
     
 }
