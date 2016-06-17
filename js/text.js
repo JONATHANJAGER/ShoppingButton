@@ -3,7 +3,7 @@ $(document).ready(function() {
 
 function addAnother(){
   value=$('#new-item-text').val();
-  newItem='<li class="list-item"> <span><span class="x">&times;</span>' + $value + '</span> <input type="checkbox" /></li>';
+  newItem='<li class="list-item"> <span><span class="x">&times;</span>' + value + '</span> <input type="checkbox" /></li>';
   if(value){
     $('#list').append(newItem);
     $('#new-item-text').val('');
